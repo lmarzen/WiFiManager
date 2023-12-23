@@ -43,8 +43,8 @@ const char HTTP_HEAD_END[]         PROGMEM = "</head><body class='{c}'><div clas
 const char HTTP_ROOT_MAIN[]        PROGMEM = "<h1>{t}</h1><h3>{v}</h3>";
 
 const char * const HTTP_PORTAL_MENU[] PROGMEM = {
-"<form action='/wifi'    method='get'><button>Configuration</button></form><br/>\n", // MENU_WIFI
-"<form action='/0wifi'   method='get'><button>Configuration (No scan)</button></form><br/>\n", // MENU_WIFINOSCAN
+"<form action='/wifi'    method='get'><button>Configure</button></form><br/>\n", // MENU_WIFI
+"<form action='/0wifi'   method='get'><button>Configure (No scan)</button></form><br/>\n", // MENU_WIFINOSCAN
 "<form action='/info'    method='get'><button>Info</button></form><br/>\n", // MENU_INFO
 "<form action='/param'   method='get'><button>Setup</button></form><br/>\n",//MENU_PARAM
 "<form action='/close'   method='get'><button>Close</button></form><br/>\n", // MENU_CLOSE
@@ -126,9 +126,9 @@ const char HTTP_HELP[]             PROGMEM =
  "<tr><td><a href='/'>/</a></td>"
  "<td>Menu page.</td></tr>"
  "<tr><td><a href='/wifi'>/wifi</a></td>"
- "<td>Show WiFi scan results and enter WiFi configuration.(/0wifi noscan)</td></tr>"
+ "<td>Show WiFi scan results and enter configuration.(/0wifi noscan)</td></tr>"
  "<tr><td><a href='/wifisave'>/wifisave</a></td>"
- "<td>Save WiFi configuration information and configure device. Needs variables supplied.</td></tr>"
+ "<td>Save configuration information and configure device. Needs variables supplied.</td></tr>"
  "<tr><td><a href='/param'>/param</a></td>"
  "<td>Parameter page</td></tr>"
  "<tr><td><a href='/info'>/info</a></td>"
@@ -142,7 +142,7 @@ const char HTTP_HELP[]             PROGMEM =
  "<tr><td>/restart</td>"
  "<td>Reboot the device</td></tr>"
  "<tr><td>/erase</td>"
- "<td>Erase WiFi configuration and reboot device. Device will not reconnect to a network until new WiFi configuration data is entered.</td></tr>"
+ "<td>Erase configuration and reboot device. Device will not reconnect to a network until new configuration data is entered.</td></tr>"
  "</table>"
  "<p/>Github <a href='https://github.com/tzapu/WiFiManager'>https://github.com/tzapu/WiFiManager</a>.";
 #else
