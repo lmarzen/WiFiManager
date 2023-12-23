@@ -12,13 +12,17 @@
     {
         "name": "tablatronix",
         "url": "https://github.com/tablatronix",
+    }
+    {
+        "name": "lmarzen",
+        "url": "https://github.com/lmarzen",
         "maintainer": true
     }
   ],
   "repository":
   {
     "type": "git",
-    "url": "https://github.com/tzapu/WiFiManager.git"
+    "url": "https://github.com/lmarzen/WiFiManager.git"
   },
   "frameworks": "arduino",
   "platforms": 
